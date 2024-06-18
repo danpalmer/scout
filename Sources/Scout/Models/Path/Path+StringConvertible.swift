@@ -46,4 +46,3 @@ public extension Collection where Element == PathElement {
 }
 
 extension Path: CustomStringConvertible, CustomDebugStringConvertible {}
-extension Slice: CustomStringConvertible, CustomDebugStringConvertible where Base == Path {}
