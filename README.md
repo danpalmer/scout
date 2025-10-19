@@ -57,11 +57,7 @@ Supported formats:
 ### Wiki
 
 The **Swift** wiki can be found on the [Github pages](https://abridoux.github.io/scout/documentation/scout).
-The **command-line** wiki can be found on [Woody's Findings](https://www.woodys-findings.com/scout/wiki-command-line/home) .
-
-### News
-- Checkout what's new in **Scout** 4.0.0 [here](https://www.woodys-findings.com/scout/news-4.0.0).
-- Checkout what’s new in **Scout** 3.0.0 [here](https://www.woodys-findings.com/scout/news-3.0.0).
+The **command-line** wiki can be found on the [Wiki tab](https://github.com/ABridoux/scout/wiki) .
 
 ## Why?
 
@@ -74,7 +70,7 @@ I have been working with many Mac admins recently, and many had to deal with Jso
 You can use a library for each format. But I am not aware today of a library that unifies all of them. So, what you learned with [jq](https://stedolan.github.io/jq/) cannot be reused to parse Plist data. You would have to learn to use **PlistBuddy** or the **defaults** command. With Scout, you can parse the same way Json, Plist and Xml data.
 
 #### Using a generic text-processing tool
-Don't get me wrong, **awk** is a wonderful tool. It can do so many things. But it is not that easy to learn. And you have to find a way to parse each different format. **Scout** is [really easy to use](https://www.woodys-findings.com/scout/wiki-command-line/examples).
+Don't get me wrong, **awk** is a wonderful tool. It can do so many things. But it is not that easy to learn. And you have to find a way to parse each different format. **Scout** is [really easy to use](https://github.com/ABridoux/scout/wiki/Examples).
 
 <br>
 
@@ -104,7 +100,7 @@ Don't get me wrong, **awk** is a wonderful tool. It can do so many things. But i
 
 ### Insights
 
-The wiki ([Swift](https://abridoux.github.io/scout/documentation/scout) | [Command-line](https://www.woodys-findings.com/scout/wiki-command-line/home)) gives more details to use those features. Also, the [Playground](Playground) folder offers several commands to play with a *People* file in several formats. The same commands can be found on this [page](https://www.woodys-findings.com/scout/wiki-command-line/examples).
+The wiki ([Swift](https://abridoux.github.io/scout/documentation/scout) | [Command-line](https://github.com/ABridoux/scout/wiki) gives more details to use those features. Also, the [Playground](Playground) folder offers several commands to play with a *People* file in several formats. The same commands can be found on this [page](https://github.com/ABridoux/scout/Examples).
 
 #### CRUD functions for JSON, Plist and XML data format
 - add a value (Create)
@@ -142,7 +138,7 @@ Specify a regular expression between sharp signs '#' to filter the keys of a dic
 It's possible to list the paths in the data to iterate over the values. The paths can be retrieved as an array in a shell script to be used in a loop.
 This list can be filtered to target only single or group values, specific keys or values, or paths starting from a base.
 
-You can [learn more](https://www.woodys-findings.com/scout/wiki-command-line/list-paths) about this feature. Also, [scripting recipes](https://www.woodys-findings.com/scout/wiki-command-line/scripting-recipes) are provided with use cases using this feature.
+You can [learn more](https://github.com/ABridoux/scout/wiki/List-Paths) about this feature. Also, [scripting recipes](https://github.com/ABridoux/scout/wiki/Scripting-Recipes) are provided with use cases using this feature.
 
 #### Stream or file input
 Set the input as a file with the input option `-i | --input` or as the last process/command output with a pipe:
@@ -174,7 +170,7 @@ When dealing with large files (although it is not recommended to output large fi
 
 #### Data formats conversion
 The library offer a conversion feature from a supported format to another one like Plist -> JSON or YAML -> XML. Read or modify the data and export it to another format.
-[Learn more](https://www.woodys-findings.com/scout/wiki-command-line/conversion)
+[Learn more](https://github.com/ABridoux/scout/wiki/Conversion)
 
 #### CSV export
 Export data when dealing with arrays or a dictionary of arrays.
@@ -186,7 +182,7 @@ Convert CSV input to one of the available formats. When the CSV has named header
 Export a 1-dimension array to a Zsh array with the `-e array` option and to an associative array with the `-e dictionary` option.
 
 ##### Customise colors
-You can specify your own colors set as explained [here](https://www.woodys-findings.com/scout/wiki-command-line/highlighting). Also, some presets for the macOS terminal default styles can be found in the [Highlight presets folder](Highlight-presets)
+You can specify your own colors set as explained [here](https://github.com/ABridoux/scout/wiki/Highlighting). Also, some presets for the macOS terminal default styles can be found in the [Highlight presets folder](Highlight-presets)
 
 #### Folding
 Fold arrays or dictionaries at a certain depth level to make the data more readable
